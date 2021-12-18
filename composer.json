@@ -1,0 +1,15 @@
+{
+    "name": "arkadiy/parser",
+    "autoload": {
+        "psr-4": {
+            "Arkadiy\\Parser\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ArdiGG",
+            "email": "arkadiok2033@gmail.com"
+        }
+    ],
+    "require": {}
+}
