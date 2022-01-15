@@ -9,14 +9,14 @@ class ComposerStaticIniteb11738981bc17a627902477f3e64dd5
     public static $prefixLengthsPsr4 = array (
         'A' => 
         array (
-            'Arkadiy\\Parser\\' => 15,
+            'App\\' => 4,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Arkadiy\\Parser\\' => 
+        'App\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src',
+            0 => __DIR__ . '/../..' . '/app',
         ),
     );
 

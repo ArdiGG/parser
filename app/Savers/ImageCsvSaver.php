@@ -1,5 +1,7 @@
 <?php
-namespace Parser;
+namespace App\Savers;
+
+use App\Interfaces\Saver;
 
 class ImageCsvSaver implements Saver
 {
@@ -14,11 +16,12 @@ class ImageCsvSaver implements Saver
         return self::$imageCsvSaveInstance;
     }
 
-    public function save($data,$domain)
+    public function save(array $data, string $name)
     {
 
-        $fp = fopen("CSV/".$domain.'.csv', 'a');
+        $fp = fopen("./storage/csvImages/".$name.'.csv', 'a');
 
         fputcsv($fp, $data);
+
     }
 }
